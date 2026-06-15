@@ -9,4 +9,4 @@ Diverse Game Modes: Normal Mode (with lives), Time Mode (60s countdown), and Mul
 Multiplayer Synchronization: Real-time competition against other players via Firebase.
 Language Support: Fully localized interface available in English and Bulgarian.
 Interactive Maps/UI: Intuitive navigation with Material Design 3.
-Leaderboard System: Global ranking of player scores, stored and sorted from highest to lowest.
+Leaderboard System: Ranking of player scores, stored and sorted from highest to lowest.
