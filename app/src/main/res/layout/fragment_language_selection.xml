@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_auth_vibrant"
+    android:padding="32dp">
+
+    <!-- Cartoon Decorations -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_leaf"
+        app:tint="@color/primary_green_dark"
+        android:contentDescription="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/langLeaf1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:alpha="0.2"
+        android:src="@drawable/ic_leaf"
+        app:tint="@color/primary_green"
+        android:rotation="-20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="-30dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/select_language"
+        android:textColor="@color/primary_green_dark"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/english"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-bold"
+        app:cornerRadius="16dp"
+        app:backgroundTint="@color/primary_green"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonBulgarian"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/bulgarian"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-bold"
+        app:cornerRadius="16dp"
+        android:textColor="@color/primary_green_dark"
+        app:strokeColor="@color/primary_green_dark"
+        app:layout_constraintTop_toBottomOf="@id/buttonEnglish" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

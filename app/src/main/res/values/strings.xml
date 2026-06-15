@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eco Quiz Game</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="bulgarian">Bulgarian</string>
+    <string name="authentication">Authentication</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="normal_mode">Normal Mode</string>
+    <string name="multiplayer_mode">Multiplayer Mode</string>
+    <string name="time_mode">Time Mode</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="score_default">Score: 0</string>
+    <string name="lives_default">Lives: ❤❤❤</string>
+    <string name="timer_default">Time: 60 s</string>
+    <string name="score_format">Score: %1$d</string>
+    <string name="lives_format">Lives: %1$s</string>
+    <string name="timer_format">Time: %1$d s</string>
+    <string name="game_code">Game Code</string>
+    <string name="generate_code">Generate Game Code</string>
+    <string name="join_game">Join Game</string>
+    <string name="invalid_game_code">Invalid game code</string>
+    <string name="sound">Sound</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="language_updated">Language updated</string>
+    <string name="progress_reset">Progress reset</string>
+    <string name="game_over">Game Over</string>
+    <string name="game_over_message">Game finished! Your score is: %1$d</string>
+    <string name="play_again">Play Again</string>
+    <string name="environment_info_long">Climate change is driven mainly by greenhouse gas emissions from human activity.
+
+Recycling helps reduce landfill waste, saves energy, and lowers the need for raw materials.
+
+Pollution affects air, water, and soil, harming ecosystems and human health.
+
+Sustainability means meeting current needs without compromising future generations.
+
+Everyday actions like reducing plastic use, saving water, and using public transport can help protect the planet.</string>
+
+    <!-- Info Categories -->
+    <string name="cat_climate">Climate Change</string>
+    <string name="cat_climate_desc">Driven mainly by greenhouse gas emissions from human activity. It causes global warming and extreme weather.</string>
+
+    <string name="cat_recycling">Recycling</string>
+    <string name="cat_recycling_desc">Helps reduce landfill waste, saves energy, and lowers the need for raw materials. Sort your waste!</string>
+
+    <string name="cat_pollution">Pollution</string>
+    <string name="cat_pollution_desc">Affects air, water, and soil, harming ecosystems and human health. Reduce, reuse, and recycle.</string>
+
+    <string name="cat_sustainability">Sustainability</string>
+    <string name="cat_sustainability_desc">Meeting current needs without compromising future generations. Live in harmony with nature.</string>
+
+    <string name="cat_actions">Everyday Actions</string>
+    <string name="cat_actions_desc">Reducing plastic use, saving water, and using public transport can help protect the planet.</string>
+
+    <string name="question_placeholder">Question text goes here&#8230;</string>
+</resources>

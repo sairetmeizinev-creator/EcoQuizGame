@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_auth_vibrant"
+    android:padding="24dp">
+
+    <!-- Cartoon Decorations -->
+    <ImageView
+        android:id="@+id/cartoonLeaf1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_leaf"
+        app:tint="@color/primary_green_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/cartoonLeaf2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_leaf"
+        app:tint="@color/primary_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="100dp"
+        android:rotation="15"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/app_name"
+        android:textColor="@color/primary_green_dark"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/centerButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottomButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/normalModeButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/normal_mode"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-bold"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/ic_leaf"
+            app:backgroundTint="@color/primary_green" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/multiplayerModeButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/multiplayer_mode"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-bold"
+            app:cornerRadius="16dp"
+            app:icon="@android:drawable/ic_menu_share"
+            app:backgroundTint="@color/accent_blue" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/timeModeButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/time_mode"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-bold"
+            app:cornerRadius="16dp"
+            app:icon="@android:drawable/ic_menu_recent_history"
+            app:backgroundTint="#FF9800" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/settingsButton"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings"
+            android:textColor="@color/primary_green_dark"
+            app:icon="@android:drawable/ic_menu_preferences"
+            app:iconTint="@color/primary_green_dark" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/infoButton"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/info"
+            android:textColor="@color/primary_green_dark"
+            app:icon="@android:drawable/ic_menu_info_details"
+            app:iconTint="@color/primary_green_dark" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/leaderboardButton"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/leaderboard"
+            android:textColor="@color/primary_green_dark"
+            app:icon="@android:drawable/star_on"
+            app:iconTint="@color/primary_green_dark" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

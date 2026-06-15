@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/languageSelectionFragment">
+
+    <fragment
+        android:id="@+id/languageSelectionFragment"
+        android:name="com.example.ecoquizgame.ui.language.LanguageSelectionFragment"
+        android:label="@string/select_language">
+        <action
+            android:id="@+id/action_languageSelectionFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.example.ecoquizgame.ui.auth.AuthFragment"
+        android:label="@string/authentication">
+        <action
+            android:id="@+id/action_authFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.example.ecoquizgame.ui.menu.MainMenuFragment"
+        android:label="@string/main_menu">
+        <action android:id="@+id/action_mainMenuFragment_to_normalModeFragment" app:destination="@id/normalModeFragment" />
+        <action android:id="@+id/action_mainMenuFragment_to_timeModeFragment" app:destination="@id/timeModeFragment" />
+        <action android:id="@+id/action_mainMenuFragment_to_multiplayerLobbyFragment" app:destination="@id/multiplayerLobbyFragment" />
+        <action android:id="@+id/action_mainMenuFragment_to_settingsFragment" app:destination="@id/settingsFragment" />
+        <action android:id="@+id/action_mainMenuFragment_to_infoFragment" app:destination="@id/infoFragment" />
+        <action android:id="@+id/action_mainMenuFragment_to_leaderboardFragment" app:destination="@id/leaderboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/normalModeFragment"
+        android:name="com.example.ecoquizgame.ui.game.NormalModeFragment"
+        android:label="@string/normal_mode">
+        <action android:id="@+id/action_normalModeFragment_to_mainMenuFragment" app:destination="@id/mainMenuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/timeModeFragment"
+        android:name="com.example.ecoquizgame.ui.game.TimeModeFragment"
+        android:label="@string/time_mode">
+        <action android:id="@+id/action_timeModeFragment_to_mainMenuFragment" app:destination="@id/mainMenuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/multiplayerLobbyFragment"
+        android:name="com.example.ecoquizgame.ui.multiplayer.MultiplayerLobbyFragment"
+        android:label="@string/multiplayer_mode">
+        <action android:id="@+id/action_multiplayerLobbyFragment_to_multiplayerGameFragment" app:destination="@id/multiplayerGameFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/multiplayerGameFragment"
+        android:name="com.example.ecoquizgame.ui.multiplayer.MultiplayerGameFragment"
+        android:label="@string/multiplayer_mode">
+        <action android:id="@+id/action_multiplayerGameFragment_to_mainMenuFragment" app:destination="@id/mainMenuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="com.example.ecoquizgame.ui.leaderboard.LeaderboardFragment"
+        android:label="@string/leaderboard" />
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.ecoquizgame.ui.info.InfoFragment"
+        android:label="@string/info" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.ecoquizgame.ui.settings.SettingsFragment"
+        android:label="@string/settings" />
+</navigation>

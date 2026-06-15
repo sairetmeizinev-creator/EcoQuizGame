@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Еко Куиз Игра</string>
+    <string name="select_language">Изберете език</string>
+    <string name="english">Английски</string>
+    <string name="bulgarian">Български</string>
+    <string name="authentication">Вход</string>
+    <string name="username">Потребителско име</string>
+    <string name="password">Парола</string>
+    <string name="login">Вход</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="main_menu">Главно меню</string>
+    <string name="normal_mode">Нормален режим</string>
+    <string name="multiplayer_mode">Мултиплейър режим</string>
+    <string name="time_mode">Режим с време</string>
+    <string name="settings">Настройки</string>
+    <string name="info">Инфо</string>
+    <string name="leaderboard">Класация</string>
+    <string name="score_default">Точки: 0</string>
+    <string name="lives_default">Животи: ❤❤❤</string>
+    <string name="timer_default">Време: 60 сек</string>
+    <string name="score_format">Точки: %1$d</string>
+    <string name="lives_format">Животи: %1$s</string>
+    <string name="timer_format">Време: %1$d сек</string>
+    <string name="game_code">Код на игра</string>
+    <string name="generate_code">Генерирай код</string>
+    <string name="join_game">Влез в игра</string>
+    <string name="invalid_game_code">Невалиден код</string>
+    <string name="sound">Звук</string>
+    <string name="reset_progress">Нулирай прогрес</string>
+    <string name="language_updated">Езикът е обновен</string>
+    <string name="progress_reset">Прогресът е изчистен</string>
+    <string name="game_over">Край на играта</string>
+    <string name="game_over_message">Играта приключи! Твоят резултат е: %1$d</string>
+    <string name="play_again">Играй отново</string>
+    <string name="environment_info_long">Климатичните промени са причинени основно от емисии парникови газове от човешка дейност.
+
+Рециклирането намалява отпадъците, пести енергия и суровини.
+
+Замърсяването засяга въздуха, водата и почвата, като вреди на екосистемите и здравето.
+
+Устойчивост означава да посрещаме нуждите днес, без да вредим на бъдещите поколения.
+
+Ежедневни действия като по-малко пластмаса, пестене на вода и използване на градски транспорт помагат на планетата.</string>
+
+    <!-- Info Categories -->
+    <string name="cat_climate">Климатични промени</string>
+    <string name="cat_climate_desc">Причинени от емисии парникови газове. Водят до глобално затопляне и екстремно време.</string>
+
+    <string name="cat_recycling">Рециклиране</string>
+    <string name="cat_recycling_desc">Намалява отпадъците и пести енергия. Сортирайте боклука си!</string>
+
+    <string name="cat_pollution">Замърсяване</string>
+    <string name="cat_pollution_desc">Засяга въздуха, водата и почвата. Намалявайте и използвайте повторно.</string>
+
+    <string name="cat_sustainability">Устойчивост</string>
+    <string name="cat_sustainability_desc">Посрещане на нуждите днес, без да вредим на бъдещето. Живейте в хармония с природата.</string>
+
+    <string name="cat_actions">Ежедневни действия</string>
+    <string name="cat_actions_desc">По-малко пластмаса, пестене на вода и използване на градски транспорт.</string>
+
+    <string name="question_placeholder">Тук ще се появи въпросът&#8230;</string>
+</resources>
