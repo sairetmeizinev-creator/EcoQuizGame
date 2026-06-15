@@ -1,4 +1,4 @@
-EqoQuizGame
+EcoQuizGame
 
 Description:
 This application is an educational quiz game focused on environmental awareness. 
